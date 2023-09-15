@@ -859,7 +859,7 @@ color: #2c5a71;
 .mary-hero .flexslider .slides li {
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: bottom center;
+    background-position: top left;
     position: relative;
     min-height: 100vh;
 }
@@ -2673,3 +2673,16 @@ overflow: hidden !important;
 [data-overlay-light="10"]:before {
     opacity: 1;
 }
+
+.imagensita { 
+    max-height: 540px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+@media screen and (max-width: 990px){
+    .bannerPrincipal{
+        background-position-x: -210px !important;
+    }
+}
+
