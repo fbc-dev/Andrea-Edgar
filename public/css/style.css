@@ -2686,3 +2686,21 @@ overflow: hidden !important;
     }
 }
 
+
+
+.grid-damas{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 720px) {
+    .grid-damas{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .friends .img{
+        width: 150px;
+        height: 150px;
+    }
+    
+}
